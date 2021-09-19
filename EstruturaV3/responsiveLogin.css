@@ -1,0 +1,38 @@
+@media screen and (max-width: 500px){
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+    *{
+        margin: 0;
+        padding: 0px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pointer,
+    nav ul li a,
+    .barrinha,
+    .pesquisa,
+    .search{
+        display: none;
+    }
+    .menu{
+        width: 300px;
+    }
+    .login-container{
+        width: 320px;
+        margin-top: 20px;
+    }
+    .home-resp{
+        position: relative;
+        bottom: 505px;
+        left: 190px;
+    }
+    .wrapper{
+        display: flex;
+      }
+      .logo{
+          padding: 0px;
+      }
+}
