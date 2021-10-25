@@ -1,0 +1,64 @@
+@media screen and (max-width: 700px){
+    *{
+        margin: 0;
+        padding: 0px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pointer,
+    nav ul li a,
+    .search,
+    .pesquisa{
+        display: none;
+    }
+    .menu{
+        width: 450px;
+    }
+
+    .barrinha{
+        position: relative;
+        left: 350px;
+        bottom: 5px;
+    }
+    #menu-area{
+        height: 130px;
+    }
+
+    .tituloNL{
+        margin-left: -250px;
+    }
+
+    p{
+        font-size: 9pt;
+    }
+
+    .cxLoja1 hr,
+    .cxLoja2 hr,
+    .cxLoja3 hr,
+    .cxLoja4 hr,
+    .cxLoja5 hr{
+        width: 350px;
+    }
+
+    .logo{
+        padding: 0px;
+        position: relative;
+        left: 40px;
+    }
+
+    .tituloMap{
+        position: relative;
+        left: 1px;
+        top: 200px;
+    }
+
+    .imgMaps{
+        position: relative;
+        left: 1px;
+        width: 400px;
+    }
+}   

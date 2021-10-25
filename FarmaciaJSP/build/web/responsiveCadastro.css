@@ -1,0 +1,45 @@
+@media screen and (max-width: 500px){
+    *{
+        margin: 0;
+        padding: 0px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pointer,
+    .logo,
+    nav ul li a,
+    .barrinha,
+    .search,
+    .pesquisa,
+    #vermelhoEscuro,
+    #caixa p{
+        display: none;
+    }
+    .menu{
+        width: 400px;
+    }
+    #form{
+        position: relative;
+        right: 170px;
+        margin: 5px;
+    }
+    .wrapper{
+        display: flex;
+    }
+
+    .home-resp{
+        position: relative;
+        bottom: 480px;
+        right: 115px;
+    }
+
+    .login-resp{
+        position: relative;
+        bottom: 560px;
+        left: 190px;
+    }
+}

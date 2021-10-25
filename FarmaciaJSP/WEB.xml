@@ -1,0 +1,7 @@
+<servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>*.png</url-pattern>
+    <url-pattern>*.jpg</url-pattern>
+</servlet-mapping>
+
+<mvc:resources location="/files/" mapping="/files/**"></mvc:resources>

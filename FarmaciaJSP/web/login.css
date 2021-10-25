@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: white;
+}
+.logo {
+  font-family: bebas neue;
+  font-size: 40px;
+  color: white;
+  margin-top: 15px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+.logo img {
+  width: 80px;
+  height: 85px;
+  margin-top: -15px;
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 85px;
+  background-color: rgb(185, 22, 16);
+}
+.pesquisa {
+  align-self: center;
+  border-radius: 8px;
+  padding: 7px;
+  height: 20px;
+  width: 300px;
+  margin-right: 40px;
+  background-color: rgb(236, 232, 232);
+  border: 1px solid rgb(199, 14, 14);
+  outline: 0;
+}
+
+.barrinha {
+  width: 22px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-right: 23px;
+  margin-top: 13px;
+}
+.barra {
+  height: 2px;
+  background-color: black;
+}
+
+/*Alinha os itens do ul/li*/
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+nav li,
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  margin-right: 80px;
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+nav a:hover {
+  color: rgb(82, 140, 155);
+}
+.search {
+  float: right;
+  height: 30px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 285px;
+  cursor: pointer;
+}
+
+.login-container {
+  width: 400px;
+  height: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(228, 28, 28);
+}
+h1 {
+  font-size: 40px;
+  color: rgb(56, 34, 34);
+  font-family: arial;
+}
+.email {
+  padding: 10px;
+  margin-top: 10px;
+  width: 280px;
+  outline: 0;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+.password {
+  padding: 10px;
+  margin-top: 10px;
+  width: 280px;
+  outline: 0;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+form {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.login {
+  padding: 10px;
+  width: 190px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(221, 46, 81);
+  border: 1px solid red;
+  font-size: 18px;
+}
+.login:hover {
+  color: white;
+}
+
+.register {
+  padding: 10px;
+  width: 190px;
+  border-radius: 8px;
+  background-color: rgb(241, 75, 103);
+  border: 1px solid red;
+  font-size: 18px;
+  cursor: pointer;
+}
+.register:hover {
+  color: white;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: arial;
+}
+a:hover {
+  color: white;
+}
+
+.wrapper{
+  display: none;
+}

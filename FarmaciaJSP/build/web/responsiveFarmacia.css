@@ -1,0 +1,68 @@
+@media screen and (max-width: 500px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pointer,
+    .logo,
+    nav ul li a
+    {
+        display: none;
+    }
+    .menu{
+        width: 469px;
+    }
+    .wrapper{
+        display: flex;
+        position: relative;
+        bottom: 600px;
+    }
+    .home-resp{
+        position: relative;
+        right: 125px;
+        bottom: 95px;
+    }
+    .car-resp{
+        position: relative;
+        left: 5px;
+        bottom: 160px;
+    }
+    .login-resp{
+        position: relative;
+        left: 130px;
+        bottom: 225px;
+    }
+    .wrapper img{
+        width: 32px;
+        height: 32px;
+    }
+    .barrinha{
+        position: static;
+        margin-left: 50px;
+    }
+    .banner{
+        width: 469px;
+        height: 100px;
+        margin: auto;
+        position: static;
+    }
+    .pesquisa{
+        position: relative;
+        top: 170px;
+        left: 45px;
+    }
+    .search{
+        margin-top: 173px;
+        margin-left: 325px;
+    }
+    #menu-area{
+        height: 160px;
+    }
+}

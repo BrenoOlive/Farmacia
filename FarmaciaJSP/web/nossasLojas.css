@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tituloNL{
+    font-size: 20pt;
+    font-weight: bold;
+    color: #ff0000;
+    margin-left: 800px;
+    position: relative;
+    top: 10px;
+}
+
+.cxLoja1{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.cxLoja1 hr{
+    width: 550px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    border: 2px solid black;
+}
+
+.cxLoja2{
+    position: relative;
+    top: 110px;
+    text-align: center;
+}
+
+.cxLoja2 hr{
+    width: 550px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    border: 2px solid black;
+}
+
+.cxLoja3{
+    position: relative;
+    top: 120px;
+    text-align: center;
+}
+
+.cxLoja3 hr{
+    width: 550px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    border: 2px solid black;
+}
+
+.cxLoja4{
+    position: relative;
+    top: 130px;
+    text-align: center;
+}
+
+.cxLoja4 hr{
+    width: 550px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    border: 2px solid black;
+}
+
+.cxLoja5{
+    position: relative;
+    top: 140px;
+    text-align: center;
+}
+
+.cxLoja5 hr{
+    width: 550px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    border: 2px solid black;
+}
+
+.imgMaps{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 220px;
+    left: 330px;
+}
+
+.tituloMap{
+    position: relative;
+    left: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+}

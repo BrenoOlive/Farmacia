@@ -1,0 +1,28 @@
+@media screen and (max-width: 500px){
+    *{
+        margin: 0;
+        padding: 0px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pointer,
+    .logo,
+    nav ul li a,
+    .barrinha{
+        display: none;
+    }
+    .menu{
+        width: 400px;
+    }
+    .pesquisa{
+        margin-left: 30px;
+    }
+    .search{
+        margin-left: 310px;
+        margin-top: 5px;
+    }
+}
